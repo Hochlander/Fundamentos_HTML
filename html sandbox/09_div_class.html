@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>div, class, span, id</title>
+  <style>
+    .card{
+      border: 1px solid #ccc;
+      background: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+
+    .enhance{
+      color: yellow;
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+  <div id="main-header">
+
+    <h1>my website</h1>
+    <p>something about me</p>
+
+  </div>
+
+  <ul>
+    <li><a href="home">home</a></li>
+    <li><a href="about">about</a></li>
+    <li><a href="contact">contact</a></li>
+  </ul>
+  <div id="about" class="card">
+    <h3>about</h3>
+    <p>Lorem ipsum <span class="enhance"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, nesciunt! </span> dolor sit amet, consectetur adipisicing elit. Et dolor vel enim dicta explicabo modi.</p>
+
+  </div>
+  <div id="contact" class="card">
+    <h3>contact me</h3>
+    <ul>
+      <li>adress: 50 main st. Boston MA</li>
+      <li>phone 555444789 </li>
+      <li>email somethnii g@gmail.com</li>
+
+      <div id="footer">
+        <p>copyright 2019</p>
+      </div>
+    </ul>
+  </div>
+</body>
+</html>
+
+<!-- div é um elemento em bloco; span é um elemento inline.
+NOrmalmente se vê mais divs, pq elas separam o bloco e organizam elementos na tela. no entanto, quando se quer ter algo inline, se usa span -->
